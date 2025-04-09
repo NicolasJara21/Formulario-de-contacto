@@ -1,0 +1,47 @@
+Prueba técnica: Formulario de contacto
+🎯 Requisitos funcionales:
+Campos obligatorios:
+
+Nombre (name)
+
+Email (email)
+
+Mensaje (message)
+
+Validaciones:
+
+Todos los campos requeridos
+
+Email válido
+
+Mensaje mínimo 10 caracteres
+
+Mostrar errores en tiempo real
+
+Al enviar:
+
+Mostrar mensaje de éxito
+
+Limpiar el formulario
+
+💡 Tecnologías a usar:
+React + TypeScript
+
+useState para control de campos
+
+Validación manual o con una librería (Zod, Yup, React Hook Form)
+
+Estilos con Tailwind o CSS
+
+ESLint y Prettier
+
+✅ Qué podés incluir para que sea más profesional:
+Ítem	Para qué sirve
+React Hook Form	Manejo simple de formularios, mejor performance
+Zod o Yup	Validaciones declarativas, seguras y tipadas
+Tipado con interface	Mejor control sobre props y tipos del formulario
+Feedback visual	Bordes rojos, mensajes de error, aria-invalid para accesibilidad
+Estados: loading y success	Mostrar spinner o mensaje mientras se envía el formulario
+Simular envío a backend	Usar setTimeout para imitar un fetch/post
+Testing con Vitest o RTL	Validar que los errores y envíos funcionen correctamente
+Deploy en Vercel/Netlify	Mostrarlo online y sumarlo al portfolio
